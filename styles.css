@@ -1,0 +1,152 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    margin-top: 0;
+    color: #e34234; /* Vermillion hue */
+}
+
+.header p {
+    color: #666;
+}
+
+.benefits h2 {
+    color: #e34234; /* Vermillion hue */
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    color: #666;
+}
+
+.benefits li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #e34234; /* Vermillion hue */
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.consent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.consent input {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #e34234; /* Vermillion hue */
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cc2f1a;
+}
+
+.thank-you-box {
+    background-color: #e0e0e0;
+    color: #ff6600;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.thank-you-box h1 {
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.thank-you-box p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: black;
+}
+
+.thank-you-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #e34234; /* Vermillion hue */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+}
+
+.dismiss-button {
+    background-color: #001f3f; /* Navy blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.dismiss-button:hover {
+    background-color: #001a36;
+}
